@@ -1,0 +1,52 @@
+.navbar-light .navbar-brand { 
+    background-color: rgb(66, 145, 141); 
+    color:#FFF;
+    padding:10px;
+}
+@media screen and (max-width: 768px) {
+    .navsmallbgcolor{
+      background-color:rgb(66, 145, 141);
+    }
+  }
+@media screen and (min-width: 769px) {
+    .navsmallbgcolor{
+      background-color:rgb(255, 255, 255);
+    }
+  }
+
+  .sidebar-row{
+
+   min-height: 100vh;
+  }
+
+  body{
+    background:rgb(224, 223, 223);
+}
+
+.header-color{
+
+    color:rgb(0, 128, 128)
+}
+.img-caption{
+
+    color:rgb(0, 128, 128);
+    text-align: center;
+    font-weight: bold;
+
+}
+.container{
+    margin-top: 30px;
+    margin-bottom:50px;
+    background-color:white ;
+    
+}
+.comparison-fig-left{
+    margin-left:20px;
+}
+
+.content{
+
+    border: black;
+    border-width: 5px;
+    padding-top: 50px;
+}

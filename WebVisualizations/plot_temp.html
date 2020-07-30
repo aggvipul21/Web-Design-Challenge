@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Comparison</title>
+    <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light navsmallbgcolor">
+        <a class="navbar-brand" href="index.html">Latitude</a>										
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <!-- Links -->
+            <ul class="navbar-nav ml-auto">
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="plot_temp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="plot_humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="plot_cloud.html">Cloudiness</a>
+                        <a class="dropdown-item" href="plot_wind.html">Wind Speed</a>
+                    </div>
+                </li>
+                    
+                                                                                        
+                <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>      
+                
+            </ul>
+
+        </div>
+        
+    </nav>
+
+    <div class="container">
+            
+        <div class="row">
+            <div class ="col-sm-12 col-md-8 content">
+                <h1 class="header-color">Max temperature</h1>
+                <hr>
+                <img src="assets/images/lat_maxtemp.png" alt="Temperature" class="img-fluid center-block">
+                <p class="text-justify"> As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude).
+                    More interestingly, however is the fact that the southern hemisphere tends to be warmer this time of
+                    year than Northen Hemisphere. This may be due to the tilt of the earth at the time of the year this data 
+                    was gathered.
+                </p>
+            </div>
+            <div class ="col-sm-12 col-md-4">
+
+                <div class="container">
+            
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2 class="header-color">Visualizations</h2>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class ="col-sm-3 col-md-6">
+                            <a href="plot_temp.html">
+                                <img src="assets/images/lat_maxtemp.png" class="img-fluid" alt="Temperature">
+                                <!--width="120" height="240">-->
+                            </a>
+                            
+                        </div>
+                        <div class ="col-sm-3 col-md-6">
+                            <a href="plot_humidity.html">
+                                <img src="assets/images/lat_humidity.png" class="img-fluid" alt="Humidity">
+                                <!--width="120" height="240">-->
+                            </a> 
+                        </div>
+
+                        <div class ="col-sm-3 col-md-6">
+                            <a href="plot_cloud.html">
+                                <img src="assets/images/lat_coludiness.png" class="img-fluid" alt="Cloudiness">
+                                <!--width="120" height="240">-->
+                            </a>
+                        </div>
+                        <div class ="col-sm-3 col-md-6">
+                            <a href="plot_wind.html">
+                                <img src="assets/images/lat_windspeed.png" class="img-fluid" alt="Windspeed">
+                                <!--width="120" height="240">-->
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
