@@ -14,6 +14,13 @@
     }
   }
 
+#borda {
+    border-left: 10px red;
+    border-right: 10px red;
+    clear: both;
+    display: block;
+ }
+
   .sidebar-row{
 
    min-height: 100vh;
@@ -38,6 +45,7 @@
     margin-top: 30px;
     margin-bottom:50px;
     background-color:white ;
+    border: black;
     
 }
 .comparison-fig-left{
