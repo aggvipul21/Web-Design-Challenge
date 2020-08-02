@@ -14,20 +14,13 @@
     }
   }
 
-#borda {
-    border-left: 10px red;
-    border-right: 10px red;
-    clear: both;
-    display: block;
- }
+.sidebar-row{
 
-  .sidebar-row{
+  min-height: 100vh;
+}
 
-   min-height: 100vh;
-  }
-
-  body{
-    background:rgb(224, 223, 223);
+body{
+  background:rgb(224, 223, 223);
 }
 
 .header-color{
@@ -37,7 +30,6 @@
 .img-caption{
 
     color:rgb(0, 128, 128);
-    text-align: center;
     font-weight: bold;
 
 }
